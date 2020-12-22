@@ -72,10 +72,11 @@ header ul li a:hover{
 /*main image*/
 /*-------------------------------------------*/
 .section-one{
-    background-image: url(DSC00252.JPG);
+    background-image: url(DSC00265.JPG);
     background-attachment: fixed;
     background-size: cover;
     height: 1000px;
+    opacity: 100%;
 }
 .section-one button{
     position:relative;
