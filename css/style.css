@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0; }
+
+.fixedlogo {
+  position: fixed;
+  z-index: 1000; }
+  .fixedlogo__image {
+    height: 90px;
+    padding-left: 30px;
+    padding-top: 25px; }
+
+.header {
+  background: url(backgroundicecream.png);
+  background-size: cover;
+  width: auto;
+  height: 75vh;
+  position: relative; }
+  .header__box {
+    height: 100%;
+    width: 100%; }
+  .header__title {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #222222;
+    text-transform: uppercase; }
+
+.shopbuttons {
+  position: relative; }
+  .shopbuttons__box {
+    top: 0;
+    left: 0;
+    height: 40px;
+    background-color: #e0e0e0; }
+  .shopbuttons__list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .shopbuttons__links {
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    transition: all .2s; }
+    .shopbuttons__links:hover {
+      transform: scale(1.5);
+      box-shadow: 1rem 4rem black .5; }
+  .shopbuttons__links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: roboto; }
+
+/* FOOTER*/
+.footer {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); }
+
+.icon-section {
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.footer-logo {
+  color: #272727;
+  font-size: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 7px; }
+
+.footer section p {
+  font-family: lato;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: 700;
+  padding-bottom: 10px; }
+
+.footer-logo:hover {
+  transform: scale(1.2); }

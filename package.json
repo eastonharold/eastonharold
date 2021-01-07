@@ -1,0 +1,26 @@
+{
+  "name": "eastonharold",
+  "version": "1.0.0",
+  "description": "eastonharold website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eastonharold/eastonharold.git"
+  },
+  "keywords": [
+    "eastonharold",
+    "music"
+  ],
+  "author": "easton harold",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eastonharold/eastonharold/issues"
+  },
+  "homepage": "https://github.com/eastonharold/eastonharold#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
