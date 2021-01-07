@@ -13,7 +13,7 @@
     padding-top: 25px; }
 
 .header {
-  background: url(backgroundicecream.png);
+  background: url(background1.jpg);
   background-size: cover;
   width: auto;
   height: 75vh;
@@ -87,3 +87,41 @@
 
 .footer-logo:hover {
   transform: scale(1.2); }
+
+.aboutme__box {
+  position: relative;
+  background-color: #f7f7f7;
+  height: 75vh; }
+
+.aboutme__content {
+  height: 50%;
+  width: 60%;
+  background-color: #bdbdbd;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%); }
+
+.aboutme__header {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 5%; }
+
+.aboutme__image {
+  height: 170px;
+  border-radius: 50%;
+  top: 50%;
+  left: 10%;
+  position: absolute;
+  transform: translate(-20%, -50%); }
+
+.aboutme__text {
+  padding-left: 300px;
+  padding-right: 200px;
+  line-height: 25px;
+  font-family: roboto;
+  top: 50%;
+  left: 10%;
+  position: absolute;
+  transform: translate(-10%, -50%); }
